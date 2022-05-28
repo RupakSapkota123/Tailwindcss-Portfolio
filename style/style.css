@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textHover {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
