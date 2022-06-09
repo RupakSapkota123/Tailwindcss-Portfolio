@@ -1,11 +1,13 @@
 import React from "react";
-import { Navbar } from "./components";
+import ThemeToggler from "./components/shared/ThemeToggler";
+import Layout from "./layout/Layout";
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-    </>
+    <Layout>
+      <p className="text-red">Hello World</p>
+      <ThemeToggler />
+    </Layout>
   );
 };
 
