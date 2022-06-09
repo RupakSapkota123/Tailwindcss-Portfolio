@@ -1,5 +1,5 @@
 import { SET_THEME } from "../../constants/constants";
-import { setTheme } from "../actions/settingActions";
+
 
 const initState = {
   theme: "light",
