@@ -2,7 +2,6 @@ import {
   applyMiddleware,
   compose,
   legacy_createStore as createStore,
-  Store,
 } from "redux";
 import createSagaMiddleware from "redux-saga";
 
